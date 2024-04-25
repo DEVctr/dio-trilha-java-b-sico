@@ -23,13 +23,6 @@ public class ContaTerminal {
 
         scanner.nextLine();
 
-        /*TODO:
-
-        * Conhecer e importar a classe Scanner → OK;
-        * Exibir as mensagens para o usuário → Ok;
-        * Obter pelo scanner os valores digitados no terminal → Ok;
-        * Exibir a mensagem de conta criada.
-        */
 
         System.out.printf("\nOlá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo %s já está disponível para saque.\n",
                          conta.getNome(), conta.getAgencia(), conta.getNumero(), conta.getSaldo());
